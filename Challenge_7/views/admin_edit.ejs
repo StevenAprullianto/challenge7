@@ -1,0 +1,70 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="/bootstrap-5.2.2-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/stylesheets/login.css">
+</head>
+
+<body>
+    <div class="container border border-primary border-3 rounded-4 w-75 h-100 p-3">
+        <div class="m-0 p-0">
+            <form class="row g-3" action="/admin?method=PUT" method="POST">
+
+                <div class="col-md-6">
+                    <label for="inputUsername" class="form-label">Username</label>
+                    <input type="text" class="form-control" id="inputUsername" name="username"
+                        value="<%= dataEditGame.username %>" />
+                </div>
+                <div class="col-md-6">
+                    <label for="inputPassword" class="form-label">Password</label>
+                    <input type="text" class="form-control" id="inputPassword" name="password"
+                        value="<%= dataEditGame.password %>" />
+                </div>
+                <div class="col-12" style="display: none;">
+                    <label for="inputId" class="form-label">Id</label>
+                    <input type="text" class="form-control" id="inputId" name="id" value="<%= dataEdit.id %>" />
+                </div>
+                <div class="col-12">
+                    <label for="inputName" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="inputName" name="name" value="<%= dataEdit.name %>" />
+                </div>
+                <div class="col-12">
+                    <label for="inputEmail" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="inputEmail" name="email"
+                        value="<%= dataEdit.email %>" />
+                </div>
+                <div class="col-12">
+                    <label for="inputMobile" class="form-label">Mobile Number</label>
+                    <input type="text" class="form-control" id="inputMobile" name="mobile"
+                        value="<%= dataEdit.mobile %>" />
+                </div>
+                <div class="col-md-6">
+                    <label for="inputGender" class="form-label">Gender</label>
+                    <input type="text" class="form-control" id="inputGender" name="gender"
+                        value="<%= dataEdit.gender %>" />
+                    <!-- <select class="form-select" aria-label="Default select example" name="gender">
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                    </select> -->
+                </div>
+                <div class="col-md-6 pt-2">
+                    <label for="inputDob">Date Of Birth</label>
+                    <input id="inputDob" class="form-control" type="text" name="dob" value="<%= dataEdit.dob %>" />
+                </div>
+                <div class="col-12">
+                    <a href="/admin" class="border border-primary border-3 btn btn-light rounded-2">
+                        Back
+                    </a>
+                    <button type="submit" class="border border-primary border-3 btn btn-light rounded-2"
+                        formaction="/admin?method=PUT">Edit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

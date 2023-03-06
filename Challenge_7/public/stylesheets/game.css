@@ -1,0 +1,55 @@
+html,
+body, 
+.container-game {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #9b835f;
+}
+
+
+.content-game {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.back-game{
+    font-size: 4rem;
+    color: #6d5026;
+}
+
+.header-game{
+    width: 100%;
+}
+
+.img-suit-game{
+    width: 4em;
+    height: 4em;
+}
+
+.btn-suit-game{
+    background:none;
+    border:none;
+    width: 6em;
+    height: 6em;
+}
+
+.btn-suit-choose-game{
+    background-color: rgb(168, 168, 168);
+    border-radius: 10% !important;
+    pointer-events: none;
+}
+
+.btn-suit-disable-game{
+    pointer-events: none;
+}
+
+.result-game{
+    transform: rotate(-30deg);
+    background-color: rgb(4, 71, 4);
+    color:white !important;
+    font-size: 2em !important;
+    height: 3em;
+}

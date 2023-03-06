@@ -1,0 +1,46 @@
+html,
+body,
+.content {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    color: white;
+}
+
+#mainScreen,
+#gameplay,
+#gameplay,
+#gameFeature,
+#systemReq,
+#topScore,
+#footer{
+background-size: 100% 100%;
+background-repeat: no-repeat;
+width: 100%;
+height: 100%;
+}
+
+#mainScreen {
+    background-image: url("../images/assets/main-bg.jpg");
+}
+
+#gameplay {
+    background-image: url("../images/assets/the-games-bg.jpg");
+}
+
+#gameFeature {
+    background-image: url("../images/assets/features.jpg");
+}
+
+#systemReq {
+    background-image: url("../images/assets/requirements.png");
+}
+
+#topScore {
+    background-image: url("../images/assets/top-score-bg.png");
+}
+
+#footer {
+    background-image: url("../images/assets/newsletter.png");
+}

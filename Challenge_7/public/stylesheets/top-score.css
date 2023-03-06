@@ -1,0 +1,16 @@
+.ts-card-bg{
+    background-image: url(../images/assets/blankimage.jpg);
+    background-size: cover;
+}
+
+.ts-avatar{
+    width: 80%;
+    height: 70%;
+    border-radius: 100%;
+    border-right: 5px solid;
+    border-bottom: 5px solid;
+}
+
+.ts-card-ms{
+    margin-left: 20%;
+}

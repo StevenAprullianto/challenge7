@@ -1,0 +1,64 @@
+/* home-title */
+/* .main-title{
+    margin-top:5%;
+} */
+
+/* logo */
+.logo{
+    max-height: 5%;
+    max-width: 5%;
+}
+
+/* btn */
+.main-btn{
+    width:300px;
+}
+
+.main-content{
+    margin-top: 5%;
+}
+
+.main-footer{
+    margin-top: 12%;
+}
+
+/* for the story btn animation */
+.zoom-in-out-box {
+    margin: 0 auto;
+    width: 50%;
+    animation: zoom-in-zoom-out 1s ease infinite;
+}
+
+@keyframes zoom-in-zoom-out {
+    0% {
+        transform: scale(1, 1);
+    }
+
+    50% {
+        transform: scale(1.5, 1.5);
+    }
+
+    100% {
+        transform: scale(1, 1);
+    }
+}
+
+@media screen and (max-width: 768px) and (max-height: 1024px) {
+    .main-content {
+        margin-top: 25%;
+    }
+
+    .main-footer {
+        margin-top: 55%;
+    }
+}
+
+@media screen and (max-width: 480px) and (max-height: 768px) {
+    .main-content {
+        margin-top: 25%;
+    }
+
+    .main-footer {
+        margin-top: 55%;
+    }
+}

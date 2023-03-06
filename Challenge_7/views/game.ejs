@@ -1,0 +1,102 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/stylesheets/game.css">
+    <link rel="stylesheet" href="/bootstrap-5.2.2-dist/css/bootstrap.css">
+
+    <title>SUIT</title>
+</head>
+
+<body>
+    <div class="container-game">
+        <header class="header-game">
+            <div class="content-game text-start p-2">
+                <div class="row">
+                    <div class="col-1">
+                        <a href="/" class="back-game text-decoration-none fw-bold">&#60;</a>
+                    </div>
+                    <div class="col-1">
+                        <img src="/images/assets-4/logo.png" alt="" class="mt-4" style="width: 4em;height: 4em;">
+                    </div>
+                    <div class="col-10 text-warning">
+                        <h1 class="mt-4 fw-bold">ROCK PAPER SCISSORS</h1>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="content-game text-center p-2 mt-3">
+
+            <div class="row">
+                <div class="col-5">
+                    <h3 class="fw-bold">PLAYER 1</h4>
+                </div>
+                <div class="col-2">
+
+                </div>
+                <div class="col-5">
+                    <h3 class="fw-bold">COM</h3>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-5 p-2">
+                    <button id="p-batu" type="button" class="btn-suit-game">
+                        <img src="/images/assets-4/batu.png" alt="" class="img-suit-game">
+                    </button>
+                </div>
+                <div class="col-2">
+
+                </div>
+                <div class="col-5 p-2">
+                    <button id="c-batu" type="button" class="btn-suit-game btn-suit-disable-game">
+                        <img src="/images/assets-4/batu.png" alt="" class="img-suit-game">
+                    </button>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-5 p-2">
+                    <button id="p-kertas" type="button" class="btn-suit-game">
+                        <img src="/images/assets-4/kertas.png" alt="" class="img-suit-game">
+                    </button>
+                </div>
+                <div class="col-2">
+                    <p id="result" class="fw-bold text-danger" style="font-size: 4rem;">VS</p>
+                </div>
+                <div class="col-5 p-2">
+                    <button id="c-kertas" type="button" class="btn-suit-game btn-suit-disable-game">
+                        <img src="/images/assets-4/kertas.png" alt="" class="img-suit-game">
+                    </button>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-5 p-2">
+                    <button id="p-gunting" type="button" class="btn-suit-game">
+                        <img src="/images/assets-4/gunting.png" alt="" class="img-suit-game">
+                    </button>
+                </div>
+                <div class="col-2">
+                    <button id="refresh" type="button" class="btn-suit-game" style="margin-top: 4em;">
+                        <img src="/images/assets-4/refresh.png" alt="" style="width:4em;height:4em;">
+                    </button>
+                </div>
+                <div class="col-5 p-2">
+                    <button id="c-gunting" type="button" class="btn-suit-game btn-suit-disable-game">
+                        <img src="/images/assets-4/gunting.png" alt="" class="img-suit-game">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/bootstrap-5.2.2-dist/js/bootstrap.js"></script>
+    <script src="/javascripts/game.js"></script>
+</body>
+
+</html>

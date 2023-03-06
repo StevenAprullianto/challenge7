@@ -1,0 +1,12 @@
+html,
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.box {
+    background-color: rgb(100, 119, 122);
+    padding-top: 15%;
+}
